@@ -3,4 +3,4 @@
 output = ""
 for i in range(97, 123):
     output += chr(i)
-print(f"{output}", end="") 
+print("{:s}".format(output), end="") 

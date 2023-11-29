@@ -10,4 +10,3 @@ for number in range(99):
 
 print("{:s}".format(output), end="")
 print("{:d}".format(99))
-

@@ -5,8 +5,8 @@ def square_matrix_simple(matrix=[]):
     for row in matrix:
         square_element = []
 
-        for item in row:
+        for element in row:
             square_element.append(element ** 2)
         output_list.append(square_element)
 
-    return output_list
+    return (output_list)

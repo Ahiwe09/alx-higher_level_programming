@@ -6,7 +6,7 @@ def square_matrix_simple(matrix=[]):
         square_element = []
 
         for item in row:
-            square_element = element ** 2
-            output_list.append(square_element)
+            square_element.append(element ** 2)
+        output_list.append(square_element)
 
     return output_list

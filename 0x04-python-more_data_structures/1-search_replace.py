@@ -8,4 +8,4 @@ def search_replace(my_list, search, replace):
         else:
             output.append(item)
 
-    return toutput
+    return output

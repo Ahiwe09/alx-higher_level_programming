@@ -7,4 +7,5 @@ def search_replace(my_list, search, replace):
             output.append(replace)
         else:
             output.append(item)
-    return(output)
+
+    return toutput

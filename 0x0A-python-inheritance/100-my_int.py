@@ -7,7 +7,7 @@ class MyInt(int):
 
     def __equal_to__(self, other):
         """ Method that returns != check """
-        return int.__ne__(self, other)
+        return int.__not_equal_to__(self, other)
 
     def __not_equal_to__(self, other):
         """ Method that returns == check """

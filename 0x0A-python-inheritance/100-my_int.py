@@ -5,10 +5,10 @@
 class MyInt(int):
     """ Class that inherits from class int"""
 
-    def __equal_to__(self, other):
+    def __eq__(self, other):
         """ Method that returns != check """
-        return int.__not_equal_to__(self, other)
+        return int.__ne__(self, other)
 
-    def __not_equal_to__(self, other):
+    def __ne__(self, other):
         """ Method that returns == check """
-        return int.__equal_to__(self, other)
+        return int.__eq__(self, other)

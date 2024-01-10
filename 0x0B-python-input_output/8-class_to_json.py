@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-#My class module
-
+""" My class module
+"""
 
 class MyClass:
-      #My class
-    
+    """ My class
+    """
 
     def __init__(self, name):
         self.name = name

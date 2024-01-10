@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-""" My class module
+""" Function that returns the dictionary description with a simple
+data structure for a JSON serialization of an object
 """
 
-class MyClass:
-    """ My class
-    """
 
-    def __init__(self, name):
-        self.name = name
-        self.number = 0
-
-    def __str__(self):
-        return "[MyClass] {} - {:d}".format(self.name, self.number)
+def class_to_json(obj):
+    """ Function that retuns the dictionary description of an obj """
+    res = {}
+    if hasattr(obj, "__dict__"):
+        res = obj.__dict__.copy()
+    return res
